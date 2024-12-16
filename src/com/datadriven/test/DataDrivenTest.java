@@ -12,7 +12,7 @@ public class DataDrivenTest {
 	public static void main(String[] args) {
 
 		//get test data from excel:
-		Xls_Reader reader = new Xls_Reader("/Users/naveenkhunteta/Documents/workspace/MorningSessions/src/com/testdata/HalfEbayTestData.xlsx");
+		Xls_Reader reader = new Xls_Reader("/bhuvnesh/workspace/MorningSessions/src/com/testdata/HalfEbayTestData.xlsx");
 
 		String firstName = reader.getCellData("RegTestData", "firstname", 2);
 		System.out.println(firstName);

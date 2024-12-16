@@ -8,7 +8,7 @@ public class WebDriverBasics {
 
 	public static void main(String[] args) {
 
-		
+// Edited	Another File	
 		//1. FF browser:
 		//geckodriver
 			// C:\\downloads\\geckodriver.exe -- windows 
@@ -17,7 +17,7 @@ public class WebDriverBasics {
 		
 	    
 	    //2. chrome browser:
-		System.setProperty("webdriver.chrome.driver", "/Users/naveenkhunteta/Downloads/chromedriver");	
+		//System.setProperty("webdriver.chrome.driver", "/Users/bgoyal/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver(); //launch chrome
 		driver.get("http://www.google.com");	//enter url
 		
